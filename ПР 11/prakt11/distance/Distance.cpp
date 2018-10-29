@@ -47,6 +47,12 @@ Distance Distance::operator+ (Distance d2) const
 	return Distance(f, i);
 }
 
+Distance Distance::operator++(int)
+{
+	feet += 5;
+	return *this;
+}
+
 Distance Distance::operator-(Distance d2) const
 {
 	int f = feet - d2.feet;

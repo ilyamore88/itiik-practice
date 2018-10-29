@@ -12,6 +12,7 @@ public:
 	void getdist();
 	void showdist();
 	Distance operator+ (Distance) const;
+	Distance operator++ (int);
 	Distance operator- (Distance) const;
 	operator float() const;
 };

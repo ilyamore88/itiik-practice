@@ -1,2 +1,2 @@
 ﻿  main.cpp
-  Triangle.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\ПР 9\prakt9\Debug\Triangle.exe
+d:\итмо\1 семестр\итиик\практические работы\itiik-practice\пр 9\prakt9\triangle\main.cpp(24): error C2310: catch handlers must specify one type

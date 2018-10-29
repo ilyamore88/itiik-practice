@@ -1,2 +1,6 @@
-﻿  main.cpp
-  prakt10.2.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\ПР 10\prakt10\x64\Debug\prakt10.2.exe
+﻿  pch.cpp
+  Dot.cpp
+  main.cpp
+  Triangle.cpp
+  Generating Code...
+  prakt10.2.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\itiik-practice\ПР 10\prakt10\x64\Debug\prakt10.2.exe

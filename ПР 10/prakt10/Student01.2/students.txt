@@ -3,3 +3,4 @@ Maria Portnova 5 5 5 5 5
 Dima Vaseha 4 4 3 4 4 
 Ilya Moroz 5 5 4 4 3 
 Ilya Moroz 5 5 4 4 5 
+Ilya Moroz 5 4 5 4 5 

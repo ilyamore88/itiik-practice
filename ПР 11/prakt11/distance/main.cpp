@@ -12,6 +12,8 @@ int main()
 	float mtrs;
 	mtrs = static_cast<float>(dist1);
 	mtrs = dist2;
+	dist2++;
+	dist2.showdist();
 
 	cout << "meters = " << mtrs << endl;
 
