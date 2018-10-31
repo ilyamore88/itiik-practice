@@ -1,0 +1,12 @@
+﻿  Source.cpp
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall array<int,long>::array<int,long>(int)" (??0?$array@HJ@@QAE@H@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: long __thiscall array<int,long>::sum(void)" (?sum@?$array@HJ@@QAEJXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: int __thiscall array<int,long>::average_value(void)" (?average_value@?$array@HJ@@QAEHXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall array<int,long>::show_array(void)" (?show_array@?$array@HJ@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: int __thiscall array<int,long>::add_value(int)" (?add_value@?$array@HJ@@QAEHH@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall array<float,float>::array<float,float>(int)" (??0?$array@MM@@QAE@H@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: float __thiscall array<float,float>::sum(void)" (?sum@?$array@MM@@QAEMXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: float __thiscall array<float,float>::average_value(void)" (?average_value@?$array@MM@@QAEMXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall array<float,float>::show_array(void)" (?show_array@?$array@MM@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: int __thiscall array<float,float>::add_value(float)" (?add_value@?$array@MM@@QAEHM@Z) referenced in function _main
+D:\ИТМО\1 семестр\ИТиИК\Практические работы\itiik-practice\ПР 14\prakt14\Debug\prakt14.2.exe : fatal error LNK1120: 10 unresolved externals

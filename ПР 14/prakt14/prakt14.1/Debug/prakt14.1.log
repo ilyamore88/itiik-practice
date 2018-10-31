@@ -1,0 +1,5 @@
+﻿  prakt14.1.cpp
+d:\итмо\1 семестр\итиик\практические работы\itiik-practice\пр 14\prakt14\prakt14.1\prakt14.1.cpp(34): warning C4838: conversion from '__int64' to 'long' requires a narrowing conversion
+d:\итмо\1 семестр\итиик\практические работы\itiik-practice\пр 14\prakt14\prakt14.1\prakt14.1.cpp(34): warning C4305: 'initializing': truncation from '__int64' to 'long'
+d:\итмо\1 семестр\итиик\практические работы\itiik-practice\пр 14\prakt14\prakt14.1\prakt14.1.cpp(34): warning C4309: 'initializing': truncation of constant value
+  prakt14.1.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\itiik-practice\ПР 14\prakt14\Debug\prakt14.1.exe
