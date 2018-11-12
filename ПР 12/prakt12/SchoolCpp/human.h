@@ -22,6 +22,10 @@ public:
 			<< this->second_name;
 		return full_name.str();
 	}
+	void get_info()
+	{
+
+	}
 private:
 	string name; 
 	string last_name; 

@@ -12,6 +12,10 @@ public:
 	{
 		return this->work_time;
 	}
+	void get_info() {
+		human::get_info();
+		cout << 1;
+	}
 private:
 	unsigned int work_time;
 };

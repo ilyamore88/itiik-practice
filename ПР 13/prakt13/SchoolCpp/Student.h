@@ -27,6 +27,10 @@ public:
 		human::putdata();
 		cout << "\nAverage score: " << get_average_score() << endl;
 	}
+
+	void example(double num) {
+		cout << "child";
+	}
 private:
 	vector<int> scores;
 };

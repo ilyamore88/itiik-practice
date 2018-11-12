@@ -27,6 +27,10 @@ public:
 	virtual void putdata() {
 		cout << "\nLast name: " << last_name << "\nName: " << name << "\nSecond name: " << second_name;
 	}
+
+	void example(int num){
+		cout << "parent";
+	}
 private:
 	string name; 
 	string last_name; 
