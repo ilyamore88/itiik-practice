@@ -1,2 +1,2 @@
-﻿  Animal.cpp
-LINK : fatal error LNK1561: entry point must be defined
+﻿  main.cpp
+  VetHospital.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\itiik-practice\Homework\Homework\Debug\VetHospital.exe
