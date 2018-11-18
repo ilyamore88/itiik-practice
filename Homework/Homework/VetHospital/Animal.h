@@ -1,23 +1,28 @@
 #pragma once
 #include <string>
-#include <ctime>
+#include "Calendar.h"
+#include <iostream>
 
 using namespace std;
 
 class Animal
 {
+protected:
+	string voice;
 private:
 	string name;
-	time_t birthDate;
+	Calendar* birthDate;
 	bool healthy;
 	bool male;
-	string voice;
 public:
 	Animal();
-	Animal(string name, time_t birthDate, bool male, bool healthy);
-	virtual int getAge();
+	Animal(string name, Calendar* birthDate, bool male, bool healthy);
+	virtual void doSomething();
+	void print();
+	int getAge();
+	void getVoice();
 	string getName();
-	time_t getBirthDate();
+	Calendar* getBirthDate();
 	bool isMale();
 	bool isHealthy();
 	~Animal();
