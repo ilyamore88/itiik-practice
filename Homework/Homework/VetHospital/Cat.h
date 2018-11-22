@@ -5,7 +5,7 @@ class Cat :
 {
 public:
 	Cat();
-	Cat(string name, Calendar* birthDate, bool male, bool healthy);
+	Cat(string name, string typeName, Calendar* birthDate, bool male, bool healthy);
 	void doSomething();
 	~Cat();
 };

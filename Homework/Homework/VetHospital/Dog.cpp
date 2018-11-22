@@ -5,7 +5,7 @@
 Dog::Dog() : Animal() {
 }
 
-Dog::Dog(string name, Calendar* birthDate, bool male, bool healthy) : Animal(name, birthDate, male, healthy) {
+Dog::Dog(string name, string typeName, Calendar* birthDate, bool male, bool healthy) : Animal(name, typeName, birthDate, male, healthy) {
 	this->voice = "Woof";
 }
 

@@ -5,7 +5,7 @@
 Cat::Cat() : Animal() {
 }
 
-Cat::Cat(string name, Calendar* birthDate, bool male, bool healthy) : Animal(name, birthDate, male, healthy) {
+Cat::Cat(string name, string typeName, Calendar* birthDate, bool male, bool healthy) : Animal(name, typeName, birthDate, male, healthy) {
 	this->voice = "Meow";
 }
 

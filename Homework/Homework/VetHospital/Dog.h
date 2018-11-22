@@ -5,7 +5,7 @@ class Dog :
 {
 public:
 	Dog();
-	Dog(string name, Calendar* birthDate, bool male, bool healthy);
+	Dog(string name, string typeName, Calendar* birthDate, bool male, bool healthy);
 	void doSomething();
 	~Dog();
 };
