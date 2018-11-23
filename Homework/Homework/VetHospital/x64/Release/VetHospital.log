@@ -1,0 +1,11 @@
+﻿  Animal.cpp
+  Calendar.cpp
+  Cat.cpp
+  Dog.cpp
+  Kitty.cpp
+  main.cpp
+  Generating code
+d:\итмо\1 семестр\итиик\практические работы\itiik-practice\homework\homework\vethospital\main.cpp(263): warning C4715: 'deleteAnimal': not all control paths return a value
+  All 290 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  VetHospital.vcxproj -> D:\ИТМО\1 семестр\ИТиИК\Практические работы\itiik-practice\Homework\Homework\x64\Release\VetHospital.exe

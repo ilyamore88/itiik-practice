@@ -1,5 +1,6 @@
 #include "Animal.h"
 #include "Cat.h"
+#include "Kitty.h"
 #include "Dog.h"
 #include <iostream>
 #include <list>
@@ -44,10 +45,6 @@ int main() {
 			break;
 		}
 	}
-
-
-
-	system("pause");
 	return 0;
 }
 
@@ -64,11 +61,11 @@ void printMenu() {
 
 Animal* createAnimal() {
 	system("cls");
-	cout << "Create (1 - Cat, 2 - Dog): ";
+	cout << "Create (1 - Cat, 2 - Dog, 3 - Kitty): ";
 	int userChoice;
 	try {
 		cin >> userChoice;
-		if (userChoice != 1 && userChoice != 2) {
+		if (userChoice != 1 && userChoice != 2 && userChoice != 3) {
 			throw;
 		}
 	}
@@ -133,6 +130,10 @@ Animal* createAnimal() {
 	case 2:
 		typeName = "Dog";
 		animal = new Dog(name, typeName, birthDate, isMale, isHealthy);
+		break;
+	case 3:
+		typeName = "Kitty";
+		animal = new Kitty(name, typeName, birthDate, isMale, isHealthy);
 		break;
 	default:
 		break;

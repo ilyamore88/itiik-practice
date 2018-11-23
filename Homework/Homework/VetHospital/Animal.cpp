@@ -26,6 +26,7 @@ void Animal::print() {
 	cout << "Sex: " << (this->male ? "male" : "female") << endl;
 	cout << "Healthy: " << (this->healthy ? "yes" : "no") << endl;
 	cout << "Voice: " << this->voice << endl;
+	this->doSomething();
 }
 
 void Animal::printInfo() {

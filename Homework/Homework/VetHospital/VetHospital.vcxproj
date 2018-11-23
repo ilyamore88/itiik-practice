@@ -109,6 +109,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -120,12 +121,14 @@
     <ClInclude Include="Calendar.h" />
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Dog.h" />
+    <ClInclude Include="Kitty.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Calendar.cpp" />
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Dog.cpp" />
+    <ClCompile Include="Kitty.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
