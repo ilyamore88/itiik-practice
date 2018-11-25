@@ -34,7 +34,6 @@ void Animal::printInfo() {
 }
 
 int Animal::getAge() {
-	time_t currentDate = time(0);
 	int age = this->birthDate->getDifferentInYears();
 	return age;
 }
