@@ -4,6 +4,7 @@
 #include "Dog.h"
 #include <iostream>
 #include <list>
+#include <algorithm>
 
 using namespace std;
 
@@ -90,7 +91,7 @@ Animal* createAnimal() {
 		int month;
 		int year;
 		sscanf_s(birthDateS, "%d.%d.%d", &day, &month, &year);
-		if ((day < 1) || (day > 31) || (month < 1) || (month > 12)) {
+		if ((day < 1) || (day > 31) || (month < 1) || (month > 12) || (year <= 0) || (year == NULL) || (year == INT_MAX)) {
 			throw;
 		}
 		birthDate->setDate(day, month, year);
@@ -170,6 +171,7 @@ void changeInfoAboutAnimal(list<Animal*> animals) {
 	list<Animal*>::iterator animal = animals.begin();
 	std::advance(animal, number);
 	Animal* a = *animal;
+	string change;
 	int number1;
 	string name;
 	Calendar* birthDate = new Calendar();
@@ -177,8 +179,27 @@ void changeInfoAboutAnimal(list<Animal*> animals) {
 	string sex;
 	string healthy;
 	cout << "Change: ";
-	cin >> number1;
+	cin >> change;
+	transform(change.begin(), change.end(), change.begin(), ::tolower);
 	system("cls");
+	if (change == "name") {
+		number1 = 1;
+	}
+	else if (change == "class") {
+		number1 = 2;
+	}
+	else if (change == "age") {
+		number1 = 3;
+	}
+	else if (change == "sex") {
+		number1 = 4;
+	}
+	else if (change == "healthy") {
+		number1 = 5;
+	}
+	else if (change == "voice") {
+		number1 = 6;
+	}
 	switch (number1)
 	{
 	case 1:
@@ -197,7 +218,7 @@ void changeInfoAboutAnimal(list<Animal*> animals) {
 			int month;
 			int year;
 			sscanf_s(birthDateS, "%d.%d.%d", &day, &month, &year);
-			if ((day < 1) || (day > 31) || (month < 1) || (month > 12)) {
+			if ((day < 1) || (day > 31) || (month < 1) || (month > 12) || (year <= 0)) {
 				throw;
 			}
 			birthDate->setDate(day, month, year);
